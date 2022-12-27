@@ -1,9 +1,10 @@
 import countReducer from "./counterReducers";
 import { combineReducers } from "redux";
+import themeReducer from "./themeReducers";
 
 
 const reducers = combineReducers({
-    countReducer,
+    countReducer,themeReducer
 })
 
 export default reducers

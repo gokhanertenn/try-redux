@@ -1,4 +1,5 @@
 import sayiAksiyon from "./counterActions";
+import temaGrup from "./themeActions";
 
-const Actions = {sayiAksiyon}
+const Actions = {sayiAksiyon,temaGrup}
 export default Actions;
